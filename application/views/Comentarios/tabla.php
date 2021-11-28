@@ -15,6 +15,9 @@
         <td><?php echo $comentario->nombre; ?></td>
         <td><?php echo $comentario->apellido;?></td>
         <td><?php echo $comentario->comentario;?></td>
+        <td><a href="editar/<?php echo $comentario->id_comentario;?>" class="btn btn-primary">editar</a></td>
+        <td><a href="eliminar/<?php echo $comentario->id_comentario;?>" class="btn btn-danger">eliminar</a></td>
+
     </tr>
         <?php } ?>
 
